@@ -10,7 +10,7 @@ You have **2 hours** to build this application. Once you are done, let me know, 
 
 To ensure a modern, clean, and scalable codebase, you must use the following setup:
 
-- **Frontend Framework**: **React + TypeScript** (scaffolded via Vite)
+- **Frontend Framework**: **React (JavaScript)** (scaffolded via Vite)
 - **Styling**: Vanilla CSS (using CSS Variables/Custom Properties for theme management). Avoid TailwindCSS unless you absolutely prefer it, but a custom CSS system showing beautiful styling is highly encouraged.
 - **State Management**: React state or React Context (e.g., `FlowContext`).
 - **Data Persistence**: `localStorage` (all tasks, session analytics, and current theme configuration must persist).
@@ -68,7 +68,7 @@ The design must feel **ultra-premium, modern, and alive**.
 When the 2 hours are up, I will run your project and evaluate it on:
 1. **Feature Completeness (40%)**: All core features (Timer, Ambient sounds, Eisenhower Matrix, Analytics, Themes) must be working.
 2. **Visual Design & Aesthetics (30%)**: Premium feel, responsiveness, interactive feedback, high-quality CSS/animations.
-3. **Architecture & Code Quality (20%)**: Clean TypeScript, clean division of components, and context organization.
+3. **Architecture & Code Quality (20%)**: Clean JavaScript, clean division of components, and context organization.
 4. **Data Persistence & Robustness (10%)**: Storing states in `localStorage`, handling browser reloads gracefully, no app crashes.
 
 Good luck! Let me know if you accept the challenge or if you have any questions before you begin the timer.
