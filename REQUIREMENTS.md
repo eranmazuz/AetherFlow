@@ -71,4 +71,33 @@ When the 2 hours are up, I will run your project and evaluate it on:
 3. **Architecture & Code Quality (20%)**: Clean JavaScript, clean division of components, and context organization.
 4. **Data Persistence & Robustness (10%)**: Storing states in `localStorage`, handling browser reloads gracefully, no app crashes.
 
+## 5. Provided Static Assets
+
+Here is a premium inline SVG Logo you can copy/paste directly into your code for the **AetherFlow** brand:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="48" height="48">
+  <defs>
+    <linearGradient id="aetherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A2BE2" />
+      <stop offset="50%" stop-color="#4A00E0" />
+      <stop offset="100%" stop-color="#00F2FE" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" />
+  <path d="M30,50 Q45,30 50,50 T70,50" fill="none" stroke="url(#aetherGradient)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" />
+  <path d="M30,56 Q45,36 50,56 T70,56" fill="none" stroke="url(#aetherGradient)" stroke-width="2" opacity="0.6" stroke-linecap="round" />
+  <circle cx="50" cy="50" r="28" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-dasharray="4 8" />
+  <circle cx="64" cy="26" r="3" fill="#00F2FE" filter="url(#glow)" />
+  <circle cx="36" cy="74" r="3" fill="#8A2BE2" filter="url(#glow)" />
+</svg>
+```
+
+---
+
 Good luck! Let me know if you accept the challenge or if you have any questions before you begin the timer.
+
