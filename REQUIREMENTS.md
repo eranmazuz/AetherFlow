@@ -14,25 +14,6 @@ To ensure a modern, clean, and scalable codebase, you must use the following set
 - **Styling**: Vanilla CSS (using CSS Variables/Custom Properties for theme management). Avoid TailwindCSS unless you absolutely prefer it, but a custom CSS system showing beautiful styling is highly encouraged.
 - **State Management**: React state or React Context (e.g., `FlowContext`).
 - **Data Persistence**: `localStorage` (all tasks, session analytics, and current theme configuration must persist).
-
-### Recommended File Structure
-```text
-src/
-├── components/
-│   ├── PomodoroTimer.tsx     # Circular timer, control buttons, session state
-│   ├── AmbientAudio.tsx      # Audio player with Web Audio API or audio elements
-│   ├── EisenhowerMatrix.tsx  # 4-quadrant task matrix with drag/move actions
-│   ├── ProductivityCharts.tsx # Visual graphs showing focus sessions/completed tasks
-│   └── ThemeSelector.tsx     # Custom theme switcher (CSS variables injection)
-├── context/
-│   └── FlowContext.tsx       # Main context for managing global state
-├── styles/
-│   ├── themes.css            # CSS variable definitions for themes
-│   └── index.css             # Main styling, glassmorphism utilities, layout
-├── App.tsx
-└── main.tsx
-```
-
 ---
 
 ## 2. Core Features & User Stories
